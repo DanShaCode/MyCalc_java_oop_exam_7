@@ -16,6 +16,7 @@ public class Controller {
         ArithmeticOperationFactory arithmeticOperationFactory;
         int userInput = 0;
         while (userInput != 6) {
+            System.out.println();
             consoleView.calcMenu();
             calcLog.getLogger().info("Меню успешно запущено");
             userInput = Integer.parseInt(scanner.nextLine());
@@ -26,10 +27,8 @@ public class Controller {
                     ArithmeticOperation arithmeticOperation = arithmeticOperationFactory.createOperation();
                     ComplexNumber complexNumber = myCalc.doArithmeticOperation(
                             arithmeticOperation, new ComplexNumber(scanner), new ComplexNumber(scanner));
-                    System.out.println();
                     System.out.print("Результат: ");
                     consoleView.viewOnConsole(complexNumber);
-                    System.out.println();
                     calcLog.getLogger().info("Суммирование прошло успешно");
                 }
                 case 2 -> {
@@ -38,7 +37,6 @@ public class Controller {
                     ArithmeticOperation arithmeticOperation = arithmeticOperationFactory.createOperation();
                     ComplexNumber complexNumber = myCalc.doArithmeticOperation(
                             arithmeticOperation, new ComplexNumber(scanner), new ComplexNumber(scanner));
-                    System.out.println();
                     System.out.print("Результат: ");
                     consoleView.viewOnConsole(complexNumber);
                     calcLog.getLogger().info("Вычитание прошло успешно");
@@ -49,7 +47,6 @@ public class Controller {
                     ArithmeticOperation arithmeticOperation = arithmeticOperationFactory.createOperation();
                     ComplexNumber complexNumber = myCalc.doArithmeticOperation(
                             arithmeticOperation, new ComplexNumber(scanner), new ComplexNumber(scanner));
-                    System.out.println();
                     System.out.print("Результат: ");
                     consoleView.viewOnConsole(complexNumber);
                     calcLog.getLogger().info("Умножение прошло успешно");
@@ -60,7 +57,6 @@ public class Controller {
                     ArithmeticOperation arithmeticOperation = arithmeticOperationFactory.createOperation();
                     ComplexNumber complexNumber = myCalc.doArithmeticOperation(
                             arithmeticOperation, new ComplexNumber(scanner), new ComplexNumber(scanner));
-                    System.out.println();
                     System.out.print("Результат: ");
                     consoleView.viewOnConsole(complexNumber);
                     calcLog.getLogger().info("Деление прошло успешно");

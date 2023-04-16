@@ -19,7 +19,7 @@ public class CalcLog {
         this.logger = Logger.getLogger(CalcLog.class.getName());
 
         try {
-            this.fileHandler = new FileHandler("MyCalLog.txt");
+            this.fileHandler = new FileHandler("MyCalcLog.txt");
             logger.addHandler(fileHandler);
             this.simpleFormatter = new SimpleFormatter();
             fileHandler.setFormatter(simpleFormatter);
