@@ -6,6 +6,5 @@ import java.util.Scanner;
 
 public interface CalcInterface {
     void calcMenu();
-    void scoreboard();
-    void clearScoreboard();
+
 }
