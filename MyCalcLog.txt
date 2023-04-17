@@ -1,1 +1,22 @@
-
+апр. 17, 2023 9:56:57 AM ru.sharipov.Control.Controller <init>
+INFO: Меню успешно запущено
+апр. 17, 2023 9:57:03 AM ru.sharipov.Control.Controller <init>
+INFO: Пользователь выбрал деление
+апр. 17, 2023 9:57:06 AM ru.sharipov.Control.Controller <init>
+INFO: Деление прошло успешно
+апр. 17, 2023 9:57:06 AM ru.sharipov.Control.Controller <init>
+INFO: Меню успешно запущено
+апр. 17, 2023 9:57:17 AM ru.sharipov.Control.Controller <init>
+INFO: Пользователь выбрал сложение
+апр. 17, 2023 9:57:21 AM ru.sharipov.Control.Controller <init>
+INFO: Суммирование прошло успешно
+апр. 17, 2023 9:57:21 AM ru.sharipov.Control.Controller <init>
+INFO: Меню успешно запущено
+апр. 17, 2023 9:57:32 AM ru.sharipov.Control.Controller <init>
+INFO: Пользователь выбрал вычитание
+апр. 17, 2023 9:57:42 AM ru.sharipov.Control.Controller <init>
+INFO: Вычитание прошло успешно
+апр. 17, 2023 9:57:42 AM ru.sharipov.Control.Controller <init>
+INFO: Меню успешно запущено
+апр. 17, 2023 9:57:53 AM ru.sharipov.Control.Controller <init>
+INFO: Приложение успешно завершено

@@ -10,6 +10,7 @@ public class NumDifference implements ArithmeticOperation {
 
     @Override
     public ComplexNumber doArithmeticOperation(ComplexNumber a, ComplexNumber b) {
+        System.out.println();
         Double real = a.getReal() - b.getReal();
         Double imaginary = a.getImaginary() - b.getImaginary();
         ComplexNumber complexNumber;

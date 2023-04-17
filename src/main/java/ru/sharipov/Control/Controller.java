@@ -15,7 +15,7 @@ public class Controller {
         Scanner scanner = new Scanner(System.in);
         ArithmeticOperationFactory arithmeticOperationFactory;
         int userInput = 0;
-        while (userInput != 6) {
+        while (userInput != 5) {
             System.out.println();
             consoleView.calcMenu();
             calcLog.getLogger().info("Меню успешно запущено");
